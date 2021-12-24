@@ -2,5 +2,26 @@
   "dependencies": {
     "express": "^4.17.2",
     "nodemon": "^2.0.15"
-  }
+  },
+  "engines": {
+    "node": "16.13.1"
+  },
+  "name": "comp-partic",
+  "description": "This is for a prototype. Just a basic design",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bLanK-sudo/basic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bLanK-sudo/basic/issues"
+  },
+  "homepage": "https://github.com/bLanK-sudo/basic#readme"
 }
