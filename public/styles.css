@@ -1,0 +1,246 @@
+*{
+    font-family: 'Merriweather Sans', 'sans-serif';
+}
+#mainbody{
+    padding: 50px ;
+    padding-top: 10px ;
+    margin: 30px;
+}
+ul{
+    list-style: none;
+}
+h2{
+    font-family: 'Raleway', 'sans-serif';
+}
+/* MAIN NAVIGATION */
+.main-nav, .contact-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.font-style-lex{
+    font-family: 'Lexend Peta', 'sans-serif';
+    padding:20px;
+    font-weight: 700;
+}
+.font-style-jose{
+    font-family: 'Josefin Sans', 'sans-serif';
+    padding:20px;
+    font-weight: 700;
+}
+.font-style-rale{
+    font-family: 'Raleway', 'sans-serif';
+    padding:20px;
+    font-weight: 900;
+}
+.font-style-mont{
+    font-family: 'Montserrat', 'sans-serif';
+    padding:20px;
+}
+.font-style-sans{
+    font-family: 'Open Sans Condensed', 'sans-serif';
+    padding:20px;
+}
+.font-style-merri{
+    font-family: 'Merriweather Sans', 'sans-serif';
+    padding:20px;
+}
+.font-style-rob{
+    font-family: 'Roboto', 'sans-serif';
+    padding:20px;
+}
+.weight{
+    font-weight: 400;
+}
+.logo, .logo-contact{
+    padding: 20px;
+    font-size: x-large;
+    cursor: pointer;
+}
+.sidebar, .sidebar-contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: row;
+    align-items: center;
+}
+.sidebar li, .sidebar-contact li{
+    padding-left: 40px;
+    justify-self: center;
+    cursor: pointer;
+}
+
+
+
+/* INTRO */
+
+.intro{
+    height: 550px;
+    width: 100%;
+    background-color: #ff7f51;
+    border-radius: 25px;
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+    margin-bottom: 80px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.content{
+    padding: 40px;
+    justify-content: center;
+    padding-top: 90px;
+    padding-left: 80px;
+    font-size: larger;
+}
+.content h2{
+    font-size: 40px;
+}
+.content p{
+    font-size: 11px;
+    letter-spacing: 2px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+img{
+    height: 600px;
+    padding-top: 40px;
+    padding-right: 50px;
+    border-radius: 100% 80% 100% 80%
+}
+.btn{
+    padding-left: 20px;
+}
+.intro-btn{
+    text-align: center;
+    border:none;
+    background-color: azure;
+    outline: none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: ease-out .2s;
+}
+.intro-btn:hover{
+    background-color: black;
+    color: azure;
+    transition: ease-in-out .23s;
+}
+
+/* DESIGN */
+
+.design{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    margin-bottom: 90px;
+    
+}
+.design *{
+    color: azure;
+}
+.webdes{
+    grid-area: span 2;
+}
+
+.webdes, .appdes, .grades{
+    border-radius: 20px;
+    background-color: #22080a;
+    padding: 30px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* OBJECT */
+
+.obj{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    margin-bottom: 30px;
+}
+.circle{
+    height: 170px;
+    width: 170px;
+    border-radius: 100%;
+    background-color: rgb(177, 175, 175);
+    margin-bottom: 20px;
+}
+.pas, .res, .fri{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    padding: 15px;
+}
+.obj *{
+    text-align: center;
+}
+.pas p, .res p, .fri p{
+    font-size: 14px;
+}
+
+/* TALK */
+
+.talk{
+    z-index: 9;
+    position: absolute;
+    width: 75%;
+    height: max-content;
+    display: grid;
+    padding: 50px ;
+    padding-top: 10px ;
+    grid-template-columns: 1fr 1fr;
+    background-color:#ff7f51 ;
+    padding-left: 100px;
+    border-radius: 25px;
+    justify-items: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.txt{
+    width:max-content;
+    justify-self: baseline;
+    font-size: larger;
+}
+.txt p{
+    width: 70%;
+    font-size: 12px;
+}
+.btn-talk{
+    border:none;
+    outline: none;
+    background-color: azure;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+button{
+    font-weight: 700;
+    transition: ease-out .2s;
+}
+.btn-talk:hover{
+    background-color: black;
+    color: azure;
+    transition: ease-in-out .23s;
+}
+
+/* CONTACT */
+.contact *{
+    color: azure;
+}
+.contact{
+    background-color: black;
+    height: 350px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.logo-contact, .sidebar-contact{
+    margin-top: 120px;
+}
